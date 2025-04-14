@@ -28,7 +28,7 @@ bot.command("about_bot", async (ctx) => {
 bot.on("message:text", async (ctx) => {
     const query = ctx.message.text;
     try {
-        await ctx.reply("Await");
+        await ctx.reply("Жди, ищу подходящий вариант ответа!!!");
         const answer = await searchStackOverflow(query);
         await ctx.reply(answer, { parse_mode: "HTML" });
     } catch (error) {
