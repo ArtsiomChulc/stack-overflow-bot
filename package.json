@@ -1,0 +1,22 @@
+{
+  "name": "bot_generate_img",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grammyjs/files": "^1.1.1",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
